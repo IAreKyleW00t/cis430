@@ -9,9 +9,9 @@ Project 1
   +-----------+------------------+------+-----+---------+-------+
   | Field     | Type             | Null | Key | Default | Extra |
   +-----------+------------------+------+-----+---------+-------+
-  | Fname     | varchar(64)      | YES  |     | NULL    |       |
+  | Fname     | varchar(32)      | YES  |     | NULL    |       |
   | Minit     | char(1)          | YES  |     | NULL    |       |
-  | Lname     | varchar(64)      | YES  |     | NULL    |       |
+  | Lname     | varchar(32)      | YES  |     | NULL    |       |
   | Ssn       | int(9) unsigned  | NO   | PRI | NULL    |       |
   | Bdate     | date             | YES  |     | NULL    |       |
   | Address   | varchar(128)     | YES  |     | NULL    |       |
