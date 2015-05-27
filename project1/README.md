@@ -1,7 +1,7 @@
 Project 1
 ---------
 #### Description
-  Create a new database called `Company` and within it create five tables called `Employee`, `Department`, `Dept_Locations`, `Project`, and `Dependent using the structure provided in `Figure 3-6`. Once completed, all tables should be left empty.
+  Create a new database called `Company` and within it create five tables called `Employee`, `Department`, `Dept_Locations`, `Project`, and `Dependent` using the structure provided in `Figure 3-6`. All tables should be left empty after creation.
   
 #### Example Table
   ```
