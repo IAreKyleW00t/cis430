@@ -19,21 +19,21 @@ CREATE TABLE Company.Works_On (
 
 /* Insert all the data into the Employee table
    based on the data provided in the assignment. */
-INSERT INTO Company.Employee VALUES ('John', 'B', 'Smith', 123456789, '09-Jan-55', '731 Fondren, Houston, TX', 'M', 30000, 987654321, 5),
-									('Franklin', 'T', 'Wong', 333445555, '08-Dec-45', '638 Voss, Houston, TX', 'M', 40000, 888665555, 5),
-                                    ('Joyce', 'A', 'English', 453453453, '31-Jul-62', '5631 Rice, Houston, TX', 'F', 25000, 333445555, 5),
-                                    ('Ramesh', 'K', 'Narayan', 666884444, '15-Sep-52', '975 Fire Oak, Humble, TX', 'M', 38000, 333445555, 5),
-                                    ('James', 'E', 'Borg', 888665555, '10-Nov-27', '450 Stone, Houston, TX', 'M', 55000, NULL, 1),
-                                    ('Jennifer', 'S', 'Wallace', 987654321, '20-Jun-31', '291 Berry, Bellaire, TX', 'F', 43000, 888665555, 4),
-                                    ('Ahmad', 'V', 'Jabbar', 987987987, '29-Mar-59', '980 Dallas, Houston, TX', 'M', 25000, 987654321, 4),
-                                    ('Alicia', 'J', 'Zelaya', 999887777, '19-Jul-58', '3321 Castle, SPring, TX', 'F', 25000, 987654321, 4);
+INSERT INTO Company.Employee VALUES ('John', 'B', 'Smith', 123456789, '1955-01-09', '731 Fondren, Houston, TX', 'M', 30000, 987654321, 5),
+									('Franklin', 'T', 'Wong', 333445555, '1945-12-08', '638 Voss, Houston, TX', 'M', 40000, 888665555, 5),
+                                    ('Joyce', 'A', 'English', 453453453, '1962-07-31', '5631 Rice, Houston, TX', 'F', 25000, 333445555, 5),
+                                    ('Ramesh', 'K', 'Narayan', 666884444, '1952-10-15', '975 Fire Oak, Humble, TX', 'M', 38000, 333445555, 5),
+                                    ('James', 'E', 'Borg', 888665555, '1927-11-10', '450 Stone, Houston, TX', 'M', 55000, NULL, 1),
+                                    ('Jennifer', 'S', 'Wallace', 987654321, '1931-06-20', '291 Berry, Bellaire, TX', 'F', 43000, 888665555, 4),
+                                    ('Ahmad', 'V', 'Jabbar', 987987987, '1959-03-29', '980 Dallas, Houston, TX', 'M', 25000, 987654321, 4),
+                                    ('Alicia', 'J', 'Zelaya', 999887777, '1958-07-19', '3321 Castle, SPring, TX', 'F', 25000, 987654321, 4);
 
 /* Insert all the data into the Department table
    based on the data provided in the assignment. */
-INSERT INTO Company.Department VALUES ('Headquarters', 1, 888665555, '19-Jun-71'),
-									  ('Administration', 4, 987654321, '01-Jan-85'),
-                                      ('Research', 5, 333445555, '22-May-78'),
-                                      ('Automation', 7, 123456789, '06-Oct-05');
+INSERT INTO Company.Department VALUES ('Headquarters', 1, 888665555, '1971-06-19'),
+									  ('Administration', 4, 987654321, '1985-01-01'),
+                                      ('Research', 5, 333445555, '1978-05-22'),
+                                      ('Automation', 7, 123456789, '2005-10-06');
 
 /* Insert all the data into the Dept_Locations table
    based on the data provided in the assignment. */
@@ -45,13 +45,13 @@ INSERT INTO Company.Dept_Locations VALUES (1, 'Houston'),
 
 /* Insert all the data into the Dependent table
    based on the data provided in the assignment. */
-INSERT INTO Company.Dependent VALUES (123456789, 'Alice', 'F', '31-Dec-78', 'Daughter'),
-									 (123456789, 'Elizabeth', 'F', '05-May-57', 'Spouse'),
-                                     (123456789, 'Michael', 'M', '01-Jan-78', 'Son'),
-                                     (333445555, 'Alice', 'F', '05-Apr-76', 'Daughter'),
-                                     (333445555, 'Joy', 'F', '03-May-48', 'Spouse'),
-                                     (333445555, 'Theodore', 'M', '25-Oct-73', 'Son'),
-                                     (987654321, 'Abner', 'M', '29-Feb-32', 'Spouse');
+INSERT INTO Company.Dependent VALUES (123456789, 'Alice', 'F', '1978-12-31', 'Daughter'),
+									 (123456789, 'Elizabeth', 'F', '1957-05-05', 'Spouse'),
+                                     (123456789, 'Michael', 'M', '1978-01-01', 'Son'),
+                                     (333445555, 'Alice', 'F', '1976-04-05', 'Daughter'),
+                                     (333445555, 'Joy', 'F', '1948-05-03', 'Spouse'),
+                                     (333445555, 'Theodore', 'M', '1973-10-25', 'Son'),
+                                     (987654321, 'Abner', 'M', '1932-02-29', 'Spouse');
 
 /* Insert all the data into the Project table
    based on the data provided in the assignment. */
