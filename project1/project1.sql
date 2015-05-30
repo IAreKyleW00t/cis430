@@ -21,7 +21,7 @@ CREATE TABLE Company.Employee (
     Bdate DATE,
     Address VARCHAR(128),
     Sex CHAR(1),
-    Salary INT(10) UNSIGNED,
+    Salary DECIMAL(10,2) UNSIGNED,
     Super_ssn INT(9) UNSIGNED,
     Dno INT(1) UNSIGNED,
     PRIMARY KEY(Ssn)
