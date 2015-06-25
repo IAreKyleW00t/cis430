@@ -42,8 +42,8 @@ DELIMITER //
 CREATE TRIGGER EMPDEPTFK_delete
 AFTER DELETE ON Company.Department
 FOR EACH ROW BEGIN
-	UPDATE Company.Employee
-	SET Company.Employee.Dno = 1
+    UPDATE Company.Employee
+    SET Company.Employee.Dno = 1
     WHERE Company.Employee.Dno = OLD.Dnumber;
     CALL SP_Audit_Dept(OLD.Dname, NULL, OLD.Dnumber, NULL, OLD.Mgr_ssn, NULL);
 END//
@@ -51,8 +51,8 @@ END//
 CREATE TRIGGER EMPDEPTFK_update
 AFTER UPDATE ON Company.Department
 FOR EACH ROW BEGIN
-	UPDATE Company.Employee
-	SET Company.Employee.Dno = 1
+    UPDATE Company.Employee
+    SET Company.Employee.Dno = 1
     WHERE Company.Employee.Dno = OLD.Dnumber;
     CALL SP_Audit_Dept(OLD.Dname, NEW.Dname, OLD.Dnumber, NEW.Dnumber, OLD.Mgr_ssn, NEW.Mgr_ssn);
 END//
