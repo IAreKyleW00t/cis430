@@ -20,7 +20,7 @@ CREATE TABLE Company.Works_On (
 /* Insert all the data into the Employee table
    based on the data provided in the assignment. */
 INSERT INTO Company.Employee VALUES ('John', 'B', 'Smith', 123456789, '1955-01-09', '731 Fondren, Houston, TX', 'M', 30000, 987654321, 5),
-									('Franklin', 'T', 'Wong', 333445555, '1945-12-08', '638 Voss, Houston, TX', 'M', 40000, 888665555, 5),
+                                    ('Franklin', 'T', 'Wong', 333445555, '1945-12-08', '638 Voss, Houston, TX', 'M', 40000, 888665555, 5),
                                     ('Joyce', 'A', 'English', 453453453, '1962-07-31', '5631 Rice, Houston, TX', 'F', 25000, 333445555, 5),
                                     ('Ramesh', 'K', 'Narayan', 666884444, '1952-10-15', '975 Fire Oak, Humble, TX', 'M', 38000, 333445555, 5),
                                     ('James', 'E', 'Borg', 888665555, '1927-11-10', '450 Stone, Houston, TX', 'M', 55000, NULL, 1),
@@ -31,14 +31,14 @@ INSERT INTO Company.Employee VALUES ('John', 'B', 'Smith', 123456789, '1955-01-0
 /* Insert all the data into the Department table
    based on the data provided in the assignment. */
 INSERT INTO Company.Department VALUES ('Headquarters', 1, 888665555, '1971-06-19'),
-									  ('Administration', 4, 987654321, '1985-01-01'),
+                                      ('Administration', 4, 987654321, '1985-01-01'),
                                       ('Research', 5, 333445555, '1978-05-22'),
                                       ('Automation', 7, 123456789, '2005-10-06');
 
 /* Insert all the data into the Dept_Locations table
    based on the data provided in the assignment. */
 INSERT INTO Company.Dept_Locations VALUES (1, 'Houston'),
-										  (4, 'Stafford'),
+                                          (4, 'Stafford'),
                                           (5, 'Bellaire'),
                                           (5, 'Sugarland'),
                                           (5, 'Houston');
@@ -46,7 +46,7 @@ INSERT INTO Company.Dept_Locations VALUES (1, 'Houston'),
 /* Insert all the data into the Dependent table
    based on the data provided in the assignment. */
 INSERT INTO Company.Dependent VALUES (123456789, 'Alice', 'F', '1978-12-31', 'Daughter'),
-									 (123456789, 'Elizabeth', 'F', '1957-05-05', 'Spouse'),
+                                     (123456789, 'Elizabeth', 'F', '1957-05-05', 'Spouse'),
                                      (123456789, 'Michael', 'M', '1978-01-01', 'Son'),
                                      (333445555, 'Alice', 'F', '1976-04-05', 'Daughter'),
                                      (333445555, 'Joy', 'F', '1948-05-03', 'Spouse'),
@@ -56,7 +56,7 @@ INSERT INTO Company.Dependent VALUES (123456789, 'Alice', 'F', '1978-12-31', 'Da
 /* Insert all the data into the Project table
    based on the data provided in the assignment. */
 INSERT INTO Company.Project VALUES ('ProductX', 1, 'Bellaire', 5),
-								   ('ProductY', 2, 'Sugarland', 5),
+                                   ('ProductY', 2, 'Sugarland', 5),
                                    ('ProductZ', 3, 'Houston', 5),
                                    ('Computerization', 10, 'Stafford', 4),
                                    ('Reorganization', 20, 'Houston', 1),
