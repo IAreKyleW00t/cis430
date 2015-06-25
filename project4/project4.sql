@@ -46,9 +46,9 @@ WHERE d.Relationship = 'Spouse' AND e.Sex = 'F' AND (
     SELECT COUNT(*)
     FROM Company.Works_On w
     WHERE w.Essn = e.Ssn) >= 3;
-	
+    
 /* List the names of employees who are working in the "Research"
-   department and are married but have no children. */	
+   department and are married but have no children. */    
 SELECT e.Fname, e.Lname
 FROM Company.Department dep
 JOIN Company.Employee e ON e.Dno = dep.Dnumber
@@ -69,7 +69,7 @@ WHERE e.Salary < 30000 AND d.Relationship = 'Spouse' AND (
     WHERE e.Ssn = dd.Essn AND (dd.Relationship = 'Son' OR dd.Relationship = 'Daughter')) = 0;
 
 /* Get the last name of married employees who only have
-   Daughters. */	
+   Daughters. */    
 SELECT e.Lname
 FROM Company.Employee e
 JOIN Company.Dependent d ON d.Essn = e.Ssn
@@ -79,7 +79,7 @@ WHERE d.Relationship = 'Spouse' AND (
     WHERE e.Ssn = dd.Essn AND (dd.Relationship = 'Son')) = 0;
 
 /* Give the last name and SSN of employees who work in any project(s)
-   where there are more female than male employees. */	
+   where there are more female than male employees. */    
 SELECT e.Lname, e.Ssn
 FROM Company.Employee e
 JOIN Company.Works_On w ON w.Essn = e.Ssn
