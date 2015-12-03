@@ -60,4 +60,4 @@ DELIMITER ;
 
 /* Perform some trigger tests. */
 UPDATE Company.Department SET Dnumber = 99 WHERE Dnumber = 4;
-DELETE Company.Department WHERE Dnumber = 5;
+DELETE FROM Company.Department WHERE Dnumber = 5;
